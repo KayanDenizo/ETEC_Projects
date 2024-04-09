@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+p {
+    color: green;
+}
+
+/* Classes e Ids */
+
+.classe {
+    background-color: #000;
+    color: red;
+}
+
+#identificador {
+    background-color: yellow;
+    color: #000;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
