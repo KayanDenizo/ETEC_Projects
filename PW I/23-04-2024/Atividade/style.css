@@ -1,0 +1,39 @@
+.container {
+    background-color: #ccc;
+}
+
+.inline {
+    display: inline;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50px;
+    border-radius: 8px;
+    height: 50px;
+    margin: 50px;
+    background-color: aquamarine;
+    border: 1px solid red;
+}
+
+.block {
+    display: block;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    background-color: teal;
+    border: 1px solid red;
+
+}
+
+.hidden {
+    cursor: pointer;
+    background-color: #cbcbcb;
+    padding: 30px;
+    transition: 0.4s;
+}
+
+.hidden:hover {
+    background-color: #f1f1f1;
+    transition: 0.4s;
+}
