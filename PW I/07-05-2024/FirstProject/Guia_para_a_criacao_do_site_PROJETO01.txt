@@ -1,0 +1,4 @@
+Para fazer uma pagina como essa, precisamos criar o enviroment ou seja, uma estrutura de pastas para organizar o projeto.
+Teremos entao uma pasta chamada projeto, dentro dela teremos uma pasta img para colocar as imagens e teremos tambem uma pasta css para colocar o estilo.
+Em outros projetos que tem videos, audios, javascript, teremos tambem que criar pastas para esses elementos.
+Em um site normalmente temos tres sessoes, uma para o cabecalho que fica fixa na parte superior, uma para o grid de produtos, e uma para o rodape.
