@@ -1,0 +1,18 @@
+- box-sizing:border-box:
+Isso vai fazer os paddings que são as margens internas respeitarem o tamanho do nosso box. Se não colocar, ao colocar o padding, ele vai expandir o box.
+- fonts.google.com: 
+site de fontes. Nesse site tem uma parte para copiar o link, copiamos o link e colamos dentro da tag head.
+- css seletor *
+colocamos aqui ao menos todos os elementos que vao valer para o arquivo todo.
+- height e widith 100vh e 100vw:
+As unidades vh e vw significam viewport, sendo a primeira para altura e a segunda para largura. Isso significa que elas utilizam o tamanho total da viewport (tamanho do nosso dispositivo), ou seja, uma altura de 100vh corresponde a 100% da página total, do nosso corpo do documento (body)
+- display flex:
+Por padrão, quando aplicamos display: flex para um elemento, todos os filhos ficam um do lado do outro como se estivessem sob o efeito de display: inline.
+- justify-content: center: 
+Os elementos ficam grudados um do lado do outro no meio do flex container.
+flex-Direction:
+row que faz com que a direção seja linha por padrão. Mas podemos mudar para column por exemplo, que ele ficaria um abaixo do outro.
+- align-items: center
+que vai centralizar o conteúdo no centro horizontal
+- padding:
+margem interna
