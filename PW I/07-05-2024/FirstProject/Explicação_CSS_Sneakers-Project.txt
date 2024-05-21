@@ -2,4 +2,5 @@ Comecamos o projeto com uma tag <header>, que é nosso cabecalho, para poder est
 A tag <header> ja informa ao <html> que se trata de um cabecalho.
 Estilizamos o header com uma cor de fundo verde, centralizamos o texto e colocamos a cor da fonte branca, e finalmente colocamos um tamanho de texto <h1>
 O atributo box-sizing: border-box, faz com que ao aplicarmos um padding ao seletor, ele nao aumenta de tamanho.
-<main> é a 
+<main> é uma tag do html onde colocamos o conteudo principal do site.
+Dentro do seletor container eu coloquei a propriedade min-height: 60vh. Isso faz com que a altura minima do meu container seja 60% da tela. Entao posso colocar um rodape que mesmo sem nada na pagina vai ficar la em baixo.

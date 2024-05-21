@@ -19,12 +19,19 @@ header {
     background-color: #3db369;
 }
 
+.container {
+    justify-content: center;
+    min-height: 60vh;
+}
+
 .product img {
     object-fit: cover;
     width: 300px;
     height: 300px;
     border-radius: 10px;
     transition: .3s;
+    box-shadow: 5px 5px 10px #0f0f0f;
+    margin-bottom: 10px;
 }
 
 .center {
@@ -94,33 +101,9 @@ a {
     background-color: #28a05e;
     color: white;
     padding: 30px;
+    margin: auto;
 }
 
 .footer {
     font-size: 15px;
-}
-
-.alert {
-    padding: 20px;
-    background-color: #3db369;
-    color: #fff;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    width: 50%;
-    opacity: 100%;
-}
-
-.closebtn {
-    margin-left: 15px;
-    color: #fff;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.closebtn:hover {
-    color: black;
 }
