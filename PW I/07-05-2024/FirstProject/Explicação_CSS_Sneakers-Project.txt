@@ -1,0 +1,5 @@
+Comecamos o projeto com uma tag <header>, que é nosso cabecalho, para poder estilizar o cabecalho.
+A tag <header> ja informa ao <html> que se trata de um cabecalho.
+Estilizamos o header com uma cor de fundo verde, centralizamos o texto e colocamos a cor da fonte branca, e finalmente colocamos um tamanho de texto <h1>
+O atributo box-sizing: border-box, faz com que ao aplicarmos um padding ao seletor, ele nao aumenta de tamanho.
+<main> é a 

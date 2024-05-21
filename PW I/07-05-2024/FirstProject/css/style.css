@@ -24,6 +24,7 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    transition: .3s;
 }
 
 .center {
@@ -97,4 +98,29 @@ a {
 
 .footer {
     font-size: 15px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #3db369;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 50%;
+    opacity: 100%;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
 }
