@@ -32,6 +32,12 @@ header {
     transition: .3s;
     box-shadow: 5px 5px 10px #0f0f0f;
     margin-bottom: 10px;
+    border: 100px solid rgb(165, 87, 42);
+}
+
+
+.product img:hover {
+    border: 1px solid #ccc;
 }
 
 .center {
@@ -77,7 +83,7 @@ header {
     margin-top: 10px;
     transition: 0.3s;
     font-weight: bold;
-
+    
     &:hover {
         background-color: #3db369;
         transition: 0.3s;
@@ -89,6 +95,7 @@ a {
     color: black;
 }
 
+/* Paramos aqui */
 .product {
     display: flex;
     flex-direction: column;

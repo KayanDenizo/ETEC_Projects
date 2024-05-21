@@ -4,3 +4,7 @@ Estilizamos o header com uma cor de fundo verde, centralizamos o texto e colocam
 O atributo box-sizing: border-box, faz com que ao aplicarmos um padding ao seletor, ele nao aumenta de tamanho.
 <main> é uma tag do html onde colocamos o conteudo principal do site.
 Dentro do seletor container eu coloquei a propriedade min-height: 60vh. Isso faz com que a altura minima do meu container seja 60% da tela. Entao posso colocar um rodape que mesmo sem nada na pagina vai ficar la em baixo.
+Nossos cards ocupam 30% da tela entao colocamos a propriedade width como 31%.
+Tambem definimos que a exibicao dele sera display:inline-block.
+Isso faz com que eles fiquem um ao lado do outro.
+Portanto temos que pensar no html como a estrutura, o esqueleto do site, onde colocamos as tags de forma a poder estilizá-las, e o css como a parte onde efetivamente vamos aplicar os estilos a essa estrutura.
