@@ -9,7 +9,9 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    font-weight: normal;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 3px solid #28a05e;
     color: white;
 }
 
@@ -34,15 +36,30 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     padding: 20px;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .title {
     color: #3db369;
+    border-left: 4px solid #28a05e;
+    padding-left: 7px;
+    margin-top: 10px;
 }
 
+.desc {
+    font-size: 16px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+
 .button {
-    background-color: #3db369;
+    background-color: #ccc;
     padding: 10px;
     border-radius: 6px;
     color: white;
@@ -50,9 +67,12 @@ header {
     align-items: center;
     text-align: center;
     margin-top: 10px;
+    transition: 0.3s;
+    font-weight: bold;
 
     &:hover {
-        background-color: #28a05e;
+        background-color: #3db369;
+        transition: 0.3s;
     }
 }
 
@@ -72,4 +92,9 @@ a {
 .rodape {
     background-color: #28a05e;
     color: white;
+    padding: 30px;
+}
+
+.footer {
+    font-size: 15px;
 }
