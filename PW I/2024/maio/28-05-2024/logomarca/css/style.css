@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: #303030;
+    align-items: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logomarca-container {
+    width: 50px;
+}
+
+.logomarca {
+    display: flex;
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 145px;
+}
+
+.btn {
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    background: #ffc001;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    height: 49px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.nav-item {
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.banner {
+    background: #3479ba;
+    height: 295px;
+}
+
+.banner-container {
+    display: flex;
+}
+
+.container-content {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    width: 671px;
+
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    height: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.desc {
+    color: #fff;
+    font-weight: bold;
+    top: 0;
+    height: 0;
+    margin: 0;
+}
