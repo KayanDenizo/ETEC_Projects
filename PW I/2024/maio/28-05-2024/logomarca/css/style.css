@@ -5,10 +5,15 @@
     font-family: sans-serif;
 }
 
+header {
+    background: #303030;
+}
+
 .container {
     background: #303030;
     align-items: center;
     margin: auto;
+    width: 80%;
 }
 
 a {
@@ -25,15 +30,17 @@ a {
     float: left;
     font-size: 24px;
     line-height: 50px;
-    margin-left: 145px;
+    /* margin-left: 145px; */
 }
 
 .btn {
-    font-size: 30px;
+    font-size: 20px;
     border: none;
     border-radius: 8px;
-    padding: 15px;
+    padding: 10px;
     background: #ffc001;
+    height: 100px;
+    width: 300px;
 }
 
 .nav-container{
@@ -48,7 +55,7 @@ a {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 
 .nav-item {
