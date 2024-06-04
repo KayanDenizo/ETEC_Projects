@@ -1,0 +1,51 @@
+<section class="banner">
+            <div class="banner-container">
+                <div class="container-content">
+                    <span class="title">Frase de efeito</span>
+                    <span class="desc">Outras frases que conmplementam a frase de efeito.</span>
+                    <button type="button" class="btn">Acessar o Produto</button>
+                </div>
+                <img src="img/homem.png" alt="">
+            </div>
+            <!-- Imagem -->
+        </section>
+        <section class="products">
+
+        </section>
+
+
+
+
+
+
+        CSS
+
+
+        .banner-container {
+    display: flex;
+}
+
+.container-content {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    width: 671px;
+
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    height: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.desc {
+    color: #fff;
+    font-weight: bold;
+    top: 0;
+    height: 0;
+    margin: 0;
+}

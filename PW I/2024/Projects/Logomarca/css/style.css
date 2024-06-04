@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    background: linear-gradient(#474646, #303030);
+}
+
+.active {
+    background: #3479ba;
+    
+}
+
+.container {
+    background: linear-gradient(#474646, #303030);
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logomarca-container {
+    width: 50px;
+}
+
+.logomarca {
+    display: flex;
+    float: left;
+    font-size: 24px;
+    line-height: 50px;
+    /* margin-left: 145px; */
+}
+
+.btn {
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    background: #ffc001;
+    height: 100px;
+    width: 300px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    height: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    /* margin-right: 150px; */
+}
+
+.nav-item {
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background: #3479ba;
+    height: 298px;
+    color: #ffffff;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 30%;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.banner-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.banner-desc {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.banner-content>button {
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 250px;
+    background: #ffc001;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.3em;
+
+    &:hover {
+        background: #ffc001;
+        transition: .2s;
+        box-shadow: 5px 5px 10px;
+    }
+}
+
+.banner-img {
+    margin-right: 400px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+
+.products-container {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.products-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.products-img > img {
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #3479ba;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+}
